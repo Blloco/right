@@ -19,30 +19,19 @@
         }
         .logo {
             max-width: 200px;
-            margin-bottom: 20px;
+            transition: opacity 0.3s;
         }
-        .link {
-            display: inline-block;
-            text-decoration: none;
-            color: #3498db;
-            font-size: 18px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: color 0.3s, background-color 0.3s;
-        }
-        .link:hover {
-            color: #ffffff;
-            background-color: #3498db;
+        .logo:hover {
+            opacity: 0.8;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Substitua 'logo.png' pelo caminho da sua logo -->
-        <img src="logo.png" alt="Logoa" class="logo">
-        
-        <!-- Substitua '#' pelo URL desejado -->
-        <a href="#" class="link">Trade / Adquirir</a>
+        <!-- Substitua '#' com o URL desejado e 'logo.png' com o caminho para a sua logo -->
+        <a href="https://raydium.io/swap/?inputMint=mnteY5NZJhMs5FaGKJLwnm1ciJ9JhJ3Zn5CsQ45mhKs&outputMint=sol" target="_blank">
+            <img src="logo.png" alt="Logo" class="logo">
+        </a>
     </div>
 </body>
 </html>
